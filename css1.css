@@ -21,6 +21,9 @@
     transform: translate(-50%, -50%);
     color: #E0FFFF;
   }
+  h1.heroimage{
+    color: #E0FFFF; 
+  }
 
 /*Chris - Set background colour*/
 body{
