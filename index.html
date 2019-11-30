@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+
+<meta charset="UTF-8"> <!-- Used to remove error of undefined charset Declaring Character Encodings in HTML, https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead. -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
+<!-- This is a comment from Grayson, Shawn's Git Review-->
+<!-- this is a comment--> 
+    <title>Lindsay Attractions</title>
+    <meta charset="UTF-8"> <!-- Used to remove error of undefined charset declaring character encodings 
+                            https://www.w3.org/International/questions/qa-html-encoding-declarations#httphead.-->
+    <link rel="stylesheet" href="css1.css"> <!-- coding for responsive design referenced from w3schools. (n.d). HTML Responsive Web Design. Retrieved from w3schools: https://www.w3schools.com/html/html_responsive.asp -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+
+<body>
+    <div class ="hero-image">
+        <div class = "heo-text">
+            <h1>Welcome To Lindsay</h1>
+        </div>
+    </div>
+
+ <!--****************************NAVIGATION BAR ***********************************************--><!--Created by Mara Van Meer -->
+ <ul class="navList">
+    <li>
+      <a href="#one">Home</a>
+  
+    </li>
+    <li><a href="#two">Attractions</a>
+      <div>
+        <a href="food.html">Cuisine</a>
+        <a href="#">Parks</a>
+        <a href="#">Events</a>
+      </div>
+    </li>
+    <li>
+      <a href="#three">Testimonials</a>
+      <div>
+        <a href="#">Our Team</a>
+        <a href="#">Lindsay Locals</a>
+      </div>
+    </li>
+    <li><a href="ImageGallery.html">Image Gallery</a></li>
+    <li><a href="#four">Map</a></li>
+  </ul>
+  
+  <!--Code for navigation bar referenced from CodePen. (n.d). navBar with Dropdown. 
+    Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj--> 
+
+<div class = "innerContent">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="imageFolder/FallWeather.jpg" width="1280" height="720">
+      <div class="text">Wonderful Weather</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="imageFolder/birders-enjoying-theview.jpg" width="1280" height="720">
+      <div class="text">Authentic Attractions</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="imageFolder/Timhorton.jpg" width="1280" height="720">
+      <div class="text">Meaningful Meals</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     
+  
+  
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  
+  
+  <div class="dotBar">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    
+  </div>
+</div>
+<!-- call for main slideshow javaScript-->
+<script src="javascript1.js">
+</script>
+
+</body>
+
+
+
+
+<!-- Footer written by Chris Noakes-->
+<footer>
+        <!--Inspiration for footer drawn from w3schools, explorekawarthalakes.com, mdbootstrap.com-->
+        <div class="footerRow">
+			<div class="footerCol">
+			<!--Logo from kawarthalakes.ca -->
+				<a href = "https://www.kawarthalakes.ca/en/index.aspx" target="_blank">
+					<img src="imageFolder/logo_footer.png" alt="Kawartha Logo">
+				</a>
+			</div>
+            <div class="footerCol">
+				<h3 class="footerHeader">Small Header</h3> <!-- Subheader and contact information-->
+                <p id="footerBlurb">Here is a description of Lindsay taking up a third of the footer. lskdfglskdjfn gslkdjf gnslkjdfng lskjdf nlskjdf nglskjdf nglskjdfn glskjdf nskldjf nglskdjf
+				j sjd fghbksjdfh gbsjd fgbksjdfh gbksjd fgbsjd gbksjd gbksjdsljd fgbkjd fhgbksjdfh</p>
+            </div>
+			<!--List of links; idea from w3schools and explore kawartha lakes website-->
+            <div class="footerCol">
+				<h3  class="footerHeader">Some Links</h3>
+                <a href="#" class="footerLinks">Link 1</a>
+                <a href="#" class="footerLinks">Link 2</a>
+                <a href="#" class="footerLinks">Link 3</a>
+                <a href="#" class="footerLinks">Link 4</a>
+				<a href="#" class="footerLinks">Link 5</a>
+            </div>
+			<!--Social media image links-->
+            <div class="footerCol">
+                <h3>Check out our social media</h3>
+				<a href="#" class="socialLinks">
+					<img src="imageFolder/ResizeFB.png" alt="FB Link">
+				</a>
+				<a href="#" class="socialLinks">
+					<img src="imageFolder/instagramIMG.png" alt="FB Link">
+				</a>
+				<a href="#" class="socialLinks">
+					<img src="imageFolder/twitter.jpg" alt="FB Link">
+				</a>
+            </div>
+
+        </div>
+    </footer>
+</html>
