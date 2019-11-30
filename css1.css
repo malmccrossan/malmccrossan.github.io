@@ -15,6 +15,17 @@
     background-size: cover;
     position: relative;
   }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  h1.heroimage{
+    color: #E0FFFF;
+    font-size: 50px;
+  }
   .foodpage-hero-image{
     background-image: url("foodpageheader.jpg");
     height:40%;
