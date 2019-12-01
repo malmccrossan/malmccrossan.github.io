@@ -15,17 +15,12 @@
     position: relative; 
   }
   .homepage h1{
-    font-size: 4.1em;
+    font-size: 50px;
     margin: auto;
     position: absolute; 
-    top: 120px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
   }
   .homepage img{
-    width: 100%;
+    width: cover;
   }
   .foodpage-hero-image{
     background-image: url("foodpageheader.jpg");
