@@ -7,23 +7,20 @@
   /***********************************Headers for all pages*************************/
   /*Written by Malena*/
 
-.homepage{
-    width: 100%;
-    height: 40%;
+  .homepage-hero-image{
+    background-image: url(5);
+    background-size: cover;
+    height: 60vh;
     text-align: center;
-    margin: 0 auto;
-    position: relative; 
-  }
-  .homepage h1{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } 
-  
-  .homepage img{
-    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .foodpage-hero-image{
     background-image: url("foodpageheader.jpg");
