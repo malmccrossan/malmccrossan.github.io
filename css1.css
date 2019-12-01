@@ -25,11 +25,12 @@
   }
   .imagegallery-hero-image{
     background-image: url("conservationarea.jpg");
-   height: auto;
+   height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom:48.828%
   }
   .hero-text {
     text-align: center;
