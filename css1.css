@@ -9,19 +9,11 @@
 
   .homepage-hero-image{
     background-image: url("conservationarea.jpg");
-    background-size: cover;
-    height: 50%;
-    text-align: center;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ }
   .foodpage-hero-image{
     background-image: url("foodpageheader.jpg");
     background-size: cover;
