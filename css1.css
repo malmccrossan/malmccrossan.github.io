@@ -7,20 +7,27 @@
   /***********************************Headers for all pages*************************/
   /*Written by Malena*/
 
-  .homepage-hero-image{
-    background-image: url("conservationarea.jpg");
-    background-size: cover;
-    height: 60vh;
+.homepage{
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
     text-align: center;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    margin: 0 auto;
+    background: #392f28;
+    position: relative; 
+  }
+  .homepage h1{
+    font-size: 4.1em;
+    margin: auto;
+    position: absolute; 
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .homepage img{
+    width: 100%;
   }
   .foodpage-hero-image{
     background-image: url("foodpageheader.jpg");
