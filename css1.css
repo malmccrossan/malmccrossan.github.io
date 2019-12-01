@@ -45,7 +45,8 @@
     color: #E0FFFF;
     font-size: 50px;
   }
-
+/***Hero image code inspired by: https://codepen.io/mrnathan8/pen/KwKdmO and 
+https://css-tricks.com/forums/topic/full-width-header-responsive-image-with-left-right-overflow/ ****/
 /*Chris - Set background colour*/
 body{
   background-color: rgb(224, 253, 242)
