@@ -15,10 +15,13 @@
     position: relative; 
   }
   .homepage h1{
-    font-size: 50px;
-    margin: auto;
-    position: absolute; 
-  }
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  
   .homepage img{
     width: cover;
   }
