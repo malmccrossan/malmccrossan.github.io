@@ -9,6 +9,8 @@
 
 .homepage{
     width: cover;
+    max-width: cover;
+    height: 40%;
     text-align: center;
     margin: 0 auto;
     position: relative; 
