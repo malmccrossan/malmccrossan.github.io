@@ -102,6 +102,7 @@ html {
 
 .navList a { /*text for nav bar*/
   color: black;
+  text-shadow: 2px 2px 5px rgb(224, 253, 242);
   padding: 12px;
   text-decoration: none;
   display: block;
