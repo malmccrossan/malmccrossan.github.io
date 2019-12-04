@@ -59,7 +59,7 @@ body{
   h1.heroimage{
     color: #E0FFFF;
     font-size: 50px;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 5px 5px 5px black;
   }
 /***Hero image code inspired by: https://codepen.io/mrnathan8/pen/KwKdmO and 
 https://css-tricks.com/forums/topic/full-width-header-responsive-image-with-left-right-overflow/ ****/
