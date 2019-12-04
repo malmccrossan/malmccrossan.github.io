@@ -32,7 +32,7 @@ body{
   padding-bottom:20%
   }
   .foodpage-hero-image{
-    background-image: url("foodpageheader.jpg");
+    background-image: url("header.jpg");
    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
