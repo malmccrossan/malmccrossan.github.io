@@ -50,15 +50,17 @@ body{
   padding-bottom:20%
   }
   .hero-text {
-    text-align: center;
+   text-align: center; 
+            line-height: 2; 
+            color: green; 
+            animation: neon 1s ease-in-out infinite alternate; 
+            margin-left: 200px; 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: green; 
-    animation: neon 1s ease-in-out infinite alternate; 
-    margin-left: 200px;
-  } 
+    } 
+  
 /* various colour combinations used to create neon effect */
     @keyframes neon { 
         from { 
