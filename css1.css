@@ -107,6 +107,7 @@ html {
   display: block;
   transition: .3s;
   white-space: nowrap;
+  text-shadow: 5px 5px 5px rgb(224, 253, 242);
 }
 
 .navList a:hover { /*Hover colour*/
