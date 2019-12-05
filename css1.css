@@ -292,16 +292,20 @@ Retrieved from CodePen: https://codepen.io/zFunx/pen/XMKaBj*/
 h1{
   font-family: Helvetica;
   color: black;
+  text-shadow: 2px 2px 5px rgb(224, 253, 242);
 }
 
 h2{
   font-family: Helvetica;
   color: black
+  text-shadow: 2px 2px 5px rgb(224, 253, 242);
 }
 
 h3{
   font-family: Helvetica;
   color: black
+  text-shadow: 2px 2px 5px rgb(224, 253, 242);
+  
 }
 
 p{
