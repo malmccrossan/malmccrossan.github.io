@@ -102,8 +102,8 @@ html {
 
 .navList a { /*text for nav bar*/
   color: black;
+  text-shadow: 2px 2px 5px rgb(224, 253, 242);
   padding: 12px;
-  text-decoration: none;
   display: block;
   transition: .3s;
   white-space: nowrap;
@@ -333,6 +333,7 @@ h2.food {
   clear:left;
   margin: 5px;
   padding-left: 100px
+  text-shadow: 2px 2px 5px rgb(224, 253, 242);
 }
 
 #tims1{
