@@ -102,7 +102,7 @@ html {
 
 .navList a { /*text for nav bar*/
   color: black;
-  text-shadow: 2px 2px 5px rgb(224, 253, 242);
+  text-shadow: 5px 5px 5px black, 0 0 1em rgb(224, 253, 242), 0 0 0.2em black;
   padding: 12px;
   display: block;
   transition: .3s;
@@ -124,7 +124,6 @@ html {
   box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.2);
   transition: .1s;
   opacity: 0;
-  text-shadow: 2px 2px 5px rgb(224, 253, 242);
 }
 
 .navList > li:hover > div { /*hover properties for list*/
@@ -332,7 +331,7 @@ padding-left: 100px;
 h2.food {
   clear:left;
   margin: 5px;
-  padding-left: 100px
+  padding-left: 100px;
   text-shadow: 2px 2px 5px rgb(224, 253, 242);
 }
 
